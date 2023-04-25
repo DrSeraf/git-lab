@@ -1,9 +1,10 @@
 #include <stdio.h>
 
 #include "askname.h"
-
+//Клонировал репозиторий и добавил комментарий для дальнейшей отправки на удалённый сервер
 int main(int argc, char **argv)
 {
+
     char first[255], last[255];
 
     askname(first, last);
